@@ -1,0 +1,1 @@
+const e="Sylvain Corsini's Resume",o="Cloud & Fullstack Developer",s="online version",t="Dark mode",l="See more",r="See less";var n={title:e,job_title:o,qrcode_text:s,dark_mode:t,see_more:l,see_less:r};export{t as dark_mode,n as default,o as job_title,s as qrcode_text,r as see_less,l as see_more,e as title};
