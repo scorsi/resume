@@ -1,121 +1,119 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-b58c4bf0.js",
+    "file": "start-e21147f0.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-7c13bb61.js",
+      "_vendor-33b74fc9.js",
       "_preload-helper-5f3a618f.js",
-      "_paths-28a87002.js"
+      "_paths-94b66ca7.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/build/components/error.svelte",
-      "src/routes/index.svelte"
+      "src/routes/index.svelte",
+      "src/routes/[lang].svelte"
     ],
     "css": [
       "assets/start-d5b4de3e.css"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-6547dc4f.js",
+    "file": "pages/__layout.svelte-c050c61d.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-7c13bb61.js",
-      "_translations-ace5fe97.js",
+      "_vendor-33b74fc9.js",
+      "_translations-b573868d.js",
       "_preload-helper-5f3a618f.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-a30e4f61.css"
+      "assets/pages/__layout.svelte-1203648f.css"
     ]
   },
   ".svelte-kit/build/components/error.svelte": {
-    "file": "error.svelte-cbe785ab.js",
+    "file": "error.svelte-1482281c.js",
     "src": ".svelte-kit/build/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-7c13bb61.js"
+      "_vendor-33b74fc9.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-4a61c562.js",
+    "file": "pages/index.svelte-ad670ef1.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-7c13bb61.js",
-      "_paths-28a87002.js",
-      "_translations-ace5fe97.js",
+      "_vendor-33b74fc9.js"
+    ]
+  },
+  "src/routes/[lang].svelte": {
+    "file": "pages/_lang_.svelte-6d81fde6.js",
+    "src": "src/routes/[lang].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-33b74fc9.js",
+      "_paths-94b66ca7.js",
+      "_translations-b573868d.js",
       "_preload-helper-5f3a618f.js"
     ],
     "css": [
-      "assets/pages/index.svelte-18562f47.css"
+      "assets/pages/_lang_.svelte-b125c2d3.css"
     ]
   },
-  "_vendor-7c13bb61.js": {
-    "file": "chunks/vendor-7c13bb61.js",
+  "_vendor-33b74fc9.js": {
+    "file": "chunks/vendor-33b74fc9.js",
     "css": [
       "assets/vendor-8992211a.css"
     ]
   },
-  "_paths-28a87002.js": {
-    "file": "chunks/paths-28a87002.js"
+  "_paths-94b66ca7.js": {
+    "file": "chunks/paths-94b66ca7.js"
   },
   "_preload-helper-5f3a618f.js": {
     "file": "chunks/preload-helper-5f3a618f.js"
   },
-  "_translations-ace5fe97.js": {
-    "file": "chunks/translations-ace5fe97.js",
+  "_translations-b573868d.js": {
+    "file": "chunks/translations-b573868d.js",
     "imports": [
       "_preload-helper-5f3a618f.js",
-      "_vendor-7c13bb61.js"
+      "_vendor-33b74fc9.js"
     ],
     "dynamicImports": [
-      "src/lib/lang/fr/header.json",
+      "src/lib/lang/en/common.json",
+      "src/lib/lang/fr/common.json",
       "src/lib/lang/fr/competences.json",
-      "src/lib/lang/fr/data/competences.json",
       "src/lib/lang/fr/hobbies.json",
-      "src/lib/lang/fr/data/hobbies.json",
-      "src/lib/lang/fr/parcours.json",
-      "src/lib/lang/fr/data/parcours.json"
+      "src/lib/lang/fr/career.json"
     ]
   },
-  "src/lib/lang/fr/header.json": {
-    "file": "chunks/header-59f12383.js",
-    "src": "src/lib/lang/fr/header.json",
+  "src/lib/lang/en/common.json": {
+    "file": "chunks/common-8cf27baa.js",
+    "src": "src/lib/lang/en/common.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/lang/fr/common.json": {
+    "file": "chunks/common-a7e6e938.js",
+    "src": "src/lib/lang/fr/common.json",
     "isDynamicEntry": true
   },
   "src/lib/lang/fr/competences.json": {
-    "file": "chunks/competences-f675a0db.js",
+    "file": "chunks/competences-ab9b6471.js",
     "src": "src/lib/lang/fr/competences.json",
     "isDynamicEntry": true
   },
-  "src/lib/lang/fr/data/competences.json": {
-    "file": "chunks/competences-9bcec1ee.js",
-    "src": "src/lib/lang/fr/data/competences.json",
-    "isDynamicEntry": true
-  },
   "src/lib/lang/fr/hobbies.json": {
-    "file": "chunks/hobbies-01154e48.js",
+    "file": "chunks/hobbies-41da20b6.js",
     "src": "src/lib/lang/fr/hobbies.json",
     "isDynamicEntry": true
   },
-  "src/lib/lang/fr/data/hobbies.json": {
-    "file": "chunks/hobbies-bcb5fec0.js",
-    "src": "src/lib/lang/fr/data/hobbies.json",
-    "isDynamicEntry": true
-  },
-  "src/lib/lang/fr/parcours.json": {
-    "file": "chunks/parcours-9b449e06.js",
-    "src": "src/lib/lang/fr/parcours.json",
-    "isDynamicEntry": true
-  },
-  "src/lib/lang/fr/data/parcours.json": {
-    "file": "chunks/parcours-6592cb45.js",
-    "src": "src/lib/lang/fr/data/parcours.json",
+  "src/lib/lang/fr/career.json": {
+    "file": "chunks/career-050bf52c.js",
+    "src": "src/lib/lang/fr/career.json",
     "isDynamicEntry": true
   }
 }
